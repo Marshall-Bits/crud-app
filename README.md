@@ -23,6 +23,9 @@ MONGODB_URI=<your-mongodb-uri-here>
 - Mongoose
 - Handlebars
 
+### My mongoDB doesn't have any books in it!
+Remember we created a seed file for you to run. You can run it by typing `node bin/seeds.js` in your terminal. This is going to create 10 books in your database.
+
 ### About the Routes
 Remember to use the folder `routes` to create your new routes.
 We are not creating the routes in the `server.js` file or the `app.js` file anymore.
