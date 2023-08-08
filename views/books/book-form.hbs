@@ -1,0 +1,17 @@
+<h1>Book form</h1>
+
+<form action="/books/create" method="POST">
+    <label for="title">Title
+        <input type="text" name="title">
+    </label>
+    <label for="author">Author
+        <input type="text" name="author">
+    </label>
+    <label for="description">Description
+        <input type="text" name="description">
+    </label>
+    <label for="rating">Grade
+        <input type="number" name="rating" min=1 max=10>
+    </label>
+    <button type="submit">Create book</button>
+</form>
